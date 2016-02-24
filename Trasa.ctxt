@@ -1,4 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Trasa()
-numComments=1
+comment0.params=nS\ kS
+comment0.target=Trasa(java.lang.String[],\ int[])
+comment1.params=nS
+comment1.target=int\ getPoradiStanice(java.lang.String)
+comment2.params=nS
+comment2.target=int\ getKilometrazStanice(java.lang.String)
+numComments=3

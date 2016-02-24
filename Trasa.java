@@ -25,6 +25,13 @@ public class Trasa
 
 	public int getKilometrazStanice( String nS )
 	{
-		return this.kilometrazStanic[ this.getPoradiStanice( nS ) ];
+		int poradi = this.getPoradiStanice( nS );
+
+		if( poradi == -1 )
+		{
+			return -1;
+		}
+
+		return this.kilometrazStanic[ poradi ];
 	}
 }
