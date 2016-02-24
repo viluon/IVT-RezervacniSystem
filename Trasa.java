@@ -25,14 +25,6 @@ public class Trasa
 
 	public int getKilometrazStanice( String nS )
 	{
-		for( int i = 0; i < this.nazvyStanic.length; i++ )
-		{
-			if( this.nazvyStanic[ i ] == nS )
-			{
-				return this.kilometrazStanic[ i ];
-			}
-		}
-
-		return -1;	
+		return this.kilometrazStanic[ this.getPoradiStanice( nS ) ];
 	}
 }
