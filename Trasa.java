@@ -34,4 +34,9 @@ public class Trasa
 
 		return this.kilometrazStanic[ poradi ];
 	}
+
+	public int getPocetStanic()
+	{
+		return this.nazvyStanic.length;
+	}
 }

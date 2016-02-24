@@ -17,8 +17,7 @@ public class Vlak
         this.kapacita = k;
 
         this.cenaRezervaci = 0;
-        this.evidenceRezervaci = null;
-        // this.evidenceRezervaci = new String[ this.kapacita ][ this.trasa.];
+        this.evidenceRezervaci = new String[ this.kapacita ][ this.trasa.getPocetStanic() ];
     }
 
     // Pocatecni stanice, koncova stanice
