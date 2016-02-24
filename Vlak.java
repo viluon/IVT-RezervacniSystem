@@ -1,6 +1,8 @@
 
 public class Vlak
 {
+    private static double koeficientCeny;
+
     private String oznaceni;
     private Trasa trasa;
     private int kapacita;
@@ -17,5 +19,11 @@ public class Vlak
         this.cenaRezervaci = 0;
         this.evidenceRezervaci = null;
         // this.evidenceRezervaci = new String[ this.kapacita ][ this.trasa.];
+    }
+
+    // Pocatecni stanice, koncova stanice
+    public int nalezeniVolnehoMista( String pS, String kS )
+    {
+        return 0;
     }
 }
