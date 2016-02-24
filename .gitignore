@@ -17,6 +17,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Sublime Text project files
+*.sublime-workspace
+*.sublime-project
+
 # =========================
 # Operating System Files
 # =========================
