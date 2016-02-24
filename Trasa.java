@@ -22,4 +22,17 @@ public class Trasa
 
 		return -1;
 	}
+
+	public int getKilometrazStanice( String nS )
+	{
+		for( int i = 0; i < this.nazvyStanic.length; i++ )
+		{
+			if( this.nazvyStanic[ i ] == nS )
+			{
+				return this.kilometrazStanic[ i ];
+			}
+		}
+
+		return -1;	
+	}
 }
