@@ -7,7 +7,8 @@ import org.junit.Test;
 public class Test1
 {
 	public Trasa trasa1;
-	public Vlak vlak1;
+	public Vlak R110;
+	public Vlak R203;
 
 	public Test1()
 	{
@@ -22,12 +23,13 @@ public class Test1
 	@Before
 	public void setUp()
 	{
-		String[] nS1 = { "Olomouc", "Ceska Trebova", "Praha" };
-		int[] kS1 = { 0, 10, 20 };
+		String[] nS1 = { "Olomouc", "Ceska Trebova", "Pardubice", "Praha", "Kolin" };
+		int[] kS1 = { 0, 72, 164, 210, 240 };
 
 		this.trasa1 = new Trasa( nS1, kS1 );
 
-		this.vlak1 = new Vlak( "vlak1", trasa1, 100 );
+		this.R110 = new Vlak( "R110", trasa1, 100 );
+		this.R203 = new Vlak( "R203", trasa1, 70 );
 	}
 
 	/**
