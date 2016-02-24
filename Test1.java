@@ -6,9 +6,9 @@ import org.junit.Test;
 
 public class Test1
 {
-	public Trasa trasa1;
-	public Vlak R110;
-	public Vlak R203;
+	private Trasa trasa1;
+	private Vlak R110;
+	private Vlak R203;
 
 	public Test1()
 	{
